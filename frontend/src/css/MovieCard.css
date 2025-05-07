@@ -1,0 +1,16 @@
+@import "tailwindcss";
+.movie-card {
+    @apply px-4 relative; /* thêm relative để absolute bên trong hoạt động */
+    .movie-poster {
+        @apply relative;
+    }
+    .movie-overlay {
+        @apply absolute top-0 right-0 opacity-0 transition-opacity duration-300;
+        .favorite-btn {
+            @apply w-8 h-8 bg-[#7e7e7e] rounded-[4px] cursor-pointer;
+        }
+    }
+    &:hover .movie-overlay {
+        @apply opacity-100;
+    }
+}
