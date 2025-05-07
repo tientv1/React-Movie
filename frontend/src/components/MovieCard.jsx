@@ -16,7 +16,7 @@ function MovieCard({ movie }) {
             </div>
             <div className="movie-info">
                 <h3>{movie.title}</h3>
-                <p>{movie.release_date}</p>
+                <p className="text-[#7e7e7e]">{movie.release_date}</p>
             </div>
         </div>
     );

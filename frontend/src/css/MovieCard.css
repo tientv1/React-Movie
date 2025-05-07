@@ -1,16 +1,21 @@
 @import "tailwindcss";
 .movie-card {
-    @apply bg-[#252525] p-2; /* thêm relative để absolute bên trong hoạt động */
+    @apply bg-[#252525] p-2 text-white; /* thêm relative để absolute bên trong hoạt động */
     .movie-poster {
         @apply relative h-[600px] sm:h-[400px] md:h-[300px] lg:h-[300px] xl:h-[400px] 2xl:h-[400px];
     }
     .movie-overlay {
         @apply absolute top-0 right-0 opacity-0 transition-opacity duration-300;
         .favorite-btn {
-            @apply w-8 h-8 bg-[#7e7e7e] rounded-[4px] cursor-pointer;
+            @apply w-8 h-8 bg-[#3d3d3c] rounded-[4px] cursor-pointer text-black;
+            &:hover {
+                @apply text-red-500;
+            }
         }
     }
-    &:hover .movie-overlay {
-        @apply opacity-100;
+    &:hover {
+        .movie-overlay {
+            @apply opacity-100;
+        }
     }
 }
