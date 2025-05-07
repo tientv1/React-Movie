@@ -1,8 +1,8 @@
 @import "tailwindcss";
 .movie-card {
-    @apply px-4 relative; /* thêm relative để absolute bên trong hoạt động */
+    @apply bg-[#252525] p-2; /* thêm relative để absolute bên trong hoạt động */
     .movie-poster {
-        @apply relative;
+        @apply relative h-[600px] sm:h-[400px] md:h-[300px] lg:h-[300px] xl:h-[400px] 2xl:h-[400px];
     }
     .movie-overlay {
         @apply absolute top-0 right-0 opacity-0 transition-opacity duration-300;
