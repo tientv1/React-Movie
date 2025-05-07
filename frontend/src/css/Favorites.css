@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.favorite-empty {
+    @apply p-4 text-center text-red-500;
+}
