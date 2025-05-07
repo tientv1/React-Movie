@@ -1,1 +1,4 @@
-/* .main-content {} */
+@import "tailwindcss";
+.main-content {
+    @apply bg-amber-50;
+}
