@@ -21,7 +21,7 @@ function Home() {
         <div className="home">
             <form onSubmit={handleSearch} className="seach-form">
                 <input
-                    type="text"
+                    type="search"
                     placeholder="Search for movies..."
                     className="search-input"
                     value={searchQuery}
