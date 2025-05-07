@@ -3,11 +3,15 @@
     .seach-form {
         @apply flex gap-4 p-4 text-xs;
         .search-input {
-            @apply w-full flex-1 p-2 items-center bg-[#3d3d3c] text-[#696969]
-            rounded-[4px] outline-[#6f74de];
+            @apply w-full flex-1 p-2 items-center 
+            bg-[#3d3d3c] text-[#7e7e7e] font-bold
+            rounded-[4px]
+            focus:outline-2 focus:outline-[#6f74de];
         }
         .search-button {
-            @apply bg-[#e7171f] rounded-[4px] px-4 py-2 text-white;
+            @apply bg-[#e7171f] rounded-[4px] 
+            px-4 py-2 
+            text-white;
         }
     }
 }
