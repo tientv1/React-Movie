@@ -1,0 +1,7 @@
+@import "tailwindcss";
+.navbar {
+    @apply bg-black text-[#6f74de] flex justify-between p-4 font-bold;
+    .navbar-links {
+        @apply flex gap-8 items-center text-sm;
+    }
+}
