@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import { MovieProvider } from "./Contexts/FavoriteContext";
 function App() {
     return (
-        <div>
+        <MovieProvider>
             <Navbar />
             <main className="main-content">
                 <Routes>
@@ -14,7 +14,7 @@ function App() {
                     <Route path="/favorites" element={<Favorite />} />
                 </Routes>
             </main>
-        </div>
+        </MovieProvider>
     );
 }
 export default App;
