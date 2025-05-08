@@ -18,7 +18,9 @@ function MovieCard({ movie }) {
                 />
                 <div className="movie-overlay">
                     <button
-                        className={`favorite-btn ${favorite ? "active" : ""}`}
+                        className={`favorite-btn ${
+                            favorite ? "active text-white" : ""
+                        }`}
                         onClick={onFavoriteClick}
                     >
                         ❤
