@@ -1,5 +1,5 @@
 import "../css/Favorites.css";
-import { useMovieContext } from "../Contexts/FavoriteContext";
+import { useMovieContext } from "../contexts/FavoriteContext";
 import MovieCard from "../components/MovieCard";
 
 function Favorites() {
