@@ -5,7 +5,7 @@
         @apply relative h-[600px] sm:h-[400px] md:h-[300px] lg:h-[300px] xl:h-[400px] 2xl:h-[400px];
     }
     .movie-overlay {
-        @apply absolute top-0 right-0 opacity-0 transition-opacity duration-300;
+        @apply absolute top-2 right-2 opacity-0 transition-opacity duration-700;
         .favorite-btn {
             @apply w-8 h-8 bg-[#3d3d3c] rounded-[4px] cursor-pointer text-black;
             &:hover {
