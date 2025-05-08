@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Favorite from "./pages/Favorites";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-
+import { MovieProvider } from "./Contexts/FavoriteContext";
 function App() {
     return (
         <div>
@@ -17,5 +17,4 @@ function App() {
         </div>
     );
 }
-
 export default App;
